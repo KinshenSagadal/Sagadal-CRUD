@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" href="images/background.png" type="image/png">
+    <title>LPU</title>
+    <link rel="stylesheet" href="scripts/css/style.css" />
+  </head>
+  <body>
+    <body style="background-image: url('images/background.jpg'); background-size: cover; background-repeat: no-repeat; background-position: center center; height: 50vh; margin: 0;"></body>
+    <div class="container">
+      <h2>Welcome to LPU</h2>
+      <hr />
+      <br />
+      <div class="form">
+        ID Number: <input type="text" name="RollNo" id="roll" /> <br /><br />
+        FullName:&nbsp; <input type="text" name="name" id="name" /> <br /><br />
+        Gender: <input type="text" name="gender" id="gender" /> <br /><br />
+        Address: <input type="text" name="Address" id="address" /> <br /><br />
+      </div>
+
+      <div class="buttons">
+        <button id="insert">Add</button>
+        <button id="read">Read</button>
+        <button id="update">Update</button>
+        <button id="delete">Delete</button>
+      </div>
+    </div>
+
+    <script src="https://www.gstatic.com/firebasejs/8.4.2/firebase.js"></script>
+
+    <script src="scripts/js/fireConfig.js"></script>
+
+    <script src="scripts/js/myscript.js"></script>
+  </body>
+</html>
